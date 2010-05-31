@@ -1,7 +1,7 @@
-erlFBGraph
+== erlFBGraph
 
 -----------------------------
-Description:
+== Description:
 
 erlFBGraph was developed with the intent to be an Erlang client to Facebook Graph API.
 
@@ -10,12 +10,12 @@ It supports OAuth authentication, by simulating the HTTP packets involved in the
 All the methods for getting data are contemplated.
 
 -----------------------------
-Dependencies:
+== Dependencies:
 
 This module requires mochijson2 to parse JSON objects and mochixpath to parse XML.
 
 -----------------------------
-Tutorial:
+== Tutorial:
 
 $ erl -pa /path/to/mochiweb/ebin/ -pa /path/to/mochixpath/ebin/
 Erlang R13B04 (erts-5.7.5) [source] [smp:2:2] [rq:2] [async-threads:0] [hipe] [kernel-poll:false]
@@ -43,6 +43,6 @@ Eshell V5.7.5  (abort with ^G)
          {<<"fan_count">>,5670228}]}
 
 -----------------------------
-Acknowledgements:
+== Acknowledgements:
 
 Thanks to ngerakines for the development of erlang_facebook that inspired me to develop this module.
